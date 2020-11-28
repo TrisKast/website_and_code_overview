@@ -21,8 +21,11 @@
     align-items: stretch;
     justify-content: center;
     flex-direction: column;
-    hyphens: auto; 
-    text-align: justify
+
+    p{
+        hyphens: auto; 
+        text-align: justify;
+    }
 }
 
 .section-heading{

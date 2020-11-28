@@ -36,6 +36,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+#header-div p {
   -webkit-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;
@@ -93,5 +96,6 @@ footer a {
   .card-img-top {
     height: 10vw;
   }
+
 }
 /*# sourceMappingURL=styles.css.map */
