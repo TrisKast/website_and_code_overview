@@ -22,14 +22,27 @@
     justify-content: center;
     flex-direction: column;
 
-    p{
-        hyphens: auto; 
-        text-align: justify;
-    }
+
+}
+
+.section-description{
+    padding-right: 2%;
+    padding-left: 2%;
+    
+}
+
+
+
+p{
+    hyphens: auto; 
+    text-align: justify;
 }
 
 .section-heading{
     margin: 2%;
+    margin-top: 5%;
+    text-decoration: underline black; 
+    text-underline-position: under;
 }
 
 .example-unit{
@@ -40,6 +53,8 @@
 .card{
     flex:1;
     margin: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .card-img-top{
@@ -66,5 +81,15 @@ footer{
     }
     .card-img-top{
         height: 10vw;
+    }
+
+    .section-heading{
+        margin-top: 2%;
+    }
+
+    .card{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        max-width: 21%;
     }
  }

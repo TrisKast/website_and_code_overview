@@ -38,7 +38,12 @@
           flex-direction: column;
 }
 
-#header-div p {
+.section-description {
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+p {
   -webkit-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;
@@ -47,6 +52,10 @@
 
 .section-heading {
   margin: 2%;
+  margin-top: 5%;
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+  text-underline-position: under;
 }
 
 .example-unit {
@@ -64,6 +73,8 @@
       -ms-flex: 1;
           flex: 1;
   margin: 2%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 .card-img-top {
@@ -96,6 +107,13 @@ footer a {
   .card-img-top {
     height: 10vw;
   }
-
+  .section-heading {
+    margin-top: 2%;
+  }
+  .card {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    max-width: 21%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
